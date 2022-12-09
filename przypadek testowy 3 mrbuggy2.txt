@@ -1,0 +1,111 @@
+Nazwa: 
+Wyświetlanie zadań z przekroczonym terminem realizacji
+
+Cel testu:
+Sprawdzenie poprawnego wyświetlania, sortowania i filtrowania zadań z przekroczonym terminem realizacji na ekranie „Kokpit”
+
+Warunki wstępne:
+[user 1] zalogowany; przypisany do projektów:
+[projekt 1] - liczba wszystkich zadań 6; liczba zadań z przekroczonym terminem 0
+[projekt 2] - liczba wszystkich zadań 6; liczba zadań z przekroczonym terminem 5
+[projekt 3] - liczba wszystkich zadań 6; liczba zadań z przekroczonym terminem 7; 
+[projekt 3 zadanie 1]: zadanie z terminem przekroczonym o 12 miesięcy 
+[projekt 3 zadanie 2]: zadanie z terminem przekroczonym o 12 miesięcy
+[projekt 3 zadanie 3]: zadanie z terminem przekroczonym o 7 miesięcy
+[projekt 3 zadanie 4]: zadanie z terminem przekroczonym o 7 miesięcy
+[projekt 3 zadanie 5]: zadanie z terminem przekroczonym o 7 miesięcy
+[projekt 3 zadanie 6]: zadanie z terminem przekroczonym o 1 miesiąc
+
+Wymagania / User Story:
+JAKO [dowolny użytkownik]  CHCĘ po zalogowaniu na ekranie "Kokpit" mieć dostęp do zadań które mają przekroczony termin  BO WTEDY będę widział jakie mam zaległości 
+Na ekranie "Kokpit" w boksie widzę 5 zadań z najodleglejszym przekroczonym terminem realizacji. Dodatkowo w nagłówku widzę liczbę wszystkich zadań z przekroczonym terminem. Pod tymi zadaniami znajduje się przycisk "Pokaż wszystkie", który po kliknięciu przeniesie mnie do widoku "Zadania" z przefiltrowaniem pod kątem "Przekroczony termin". 
+Typ testu:
+Pozytywny
+
+Opis kroku i Oczekiwany rezultat
+
+1. Opis kroku: Przełącz się na [projekt 1];  
+
+Oczekiwany rezultat:  Użytkownik został przeniesiony na [projekt1]
+
+2. Opis kroku: Sprawdź czy widzisz „Kokpit”
+
+Oczekiwany rezultat:  „Kokpit” jest widoczny
+
+3. Opis kroku: Sprawdź czy na ekranie „Kokpit” widoczna jest lista zadań z przekroczonym terminem
+
+Oczekiwany rezultat: Lista zadań z przekroczonym terminem jest widoczna; lista nie zawiera zadań
+
+4. Opis kroku: Sprawdź czy pod listą wyświetla się przycisk „Pokaż wszystkie”
+
+Oczekiwany rezultat:  Przycisk „Pokaż wszystkie” nie jest widoczny pod listą
+
+5. Opis kroku: Sprawdź czy w nagłówku listy wyświetla się liczba zadań z przekroczonym terminem
+
+Oczekiwany rezultat:  W nagłówku listy nie wyświetla się liczba zadań z przekroczonym terminem
+
+6. Opis kroku: Przełącz się na [projekt 2] 
+
+Oczekiwany rezultat:   „Użytkownik przeniesiony na [projekt 2]
+
+7. Opis kroku: Sprawdź czy widzisz „Kokpit” 
+
+Oczekiwany rezultat:  „Kokpit” jest widoczny
+
+8. Opis kroku: Sprawdź czy na ekranie „Kokpit” widoczna jest lista zadań z przekroczonym terminem
+
+Oczekiwany rezultat:  Lista zadań z przekroczonym terminem jest widoczna
+
+9. Opis kroku: Sprawdź czy w nagłówku listy wyświetla się liczba zadań z przekroczonym terminem
+
+Oczekiwany rezultat: W nagłówku listy wyświetla się liczba zadań z przekroczonym terminem (5)
+
+10. Opis kroku: Sprawdź czy pod listą wyświetla się przycisk „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Przycisk „Pokaż wszystkie” jest widoczny pod listą
+
+11. Opis kroku: Kliknij przycisk „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Zostaje wyświetlony nowy widok „Zadania”]
+
+12. Opis kroku: Sprawdź czy na widoku „Zadania” widoczne są tylko zadania z przekroczonym terminem (5)
+
+Oczekiwany rezultat: Na widoku „Zadania” widoczne są tylko zadania z przekroczonym terminem (5)
+
+13. Opis kroku: Przełącz się na [projekt 3]
+
+Oczekiwany rezultat: Użytkownik przeniesiony na [projekt 3]
+
+14. Opis kroku: Sprawdź czy widzisz „Kokpit”
+
+Oczekiwany rezultat: „Kokpit” jest widoczny
+
+15. Opis kroku: Sprawdź czy na ekranie „Kokpit” widoczna jest lista zadań z przekroczonym terminem
+
+Oczekiwany rezultat: Lista zadań z przekroczonym terminem jest widoczna
+
+16. Opis kroku: Sprawdź czy na liście zadań z przekroczonym terminem wyświetla się 5 zadań
+
+Oczekiwany rezultat: Na liście zadań z przekroczonym terminem wyświetla się 5 projektów
+
+17. Opis kroku: Sprawdź czy w nagłówku listy wyświetla się liczba zadań z przekroczonym terminem (6) 
+
+Oczekiwany rezultat: W nagłówku listy wyświetla się liczba zadań z przekroczonym terminem (7)
+
+18. Opis kroku: Sprawdź czy na liście zadań z przekroczonym terminem wyświetla się [zadanie 1], 
+[zadanie 2], [zadanie 3], [zadanie 4], [zadanie 5] 
+
+Oczekiwany rezultat: Na liście zadań z przekroczonym terminem wyświetla się [zadanie 1], [zadanie 2], [zadanie 3], [zadanie 4], [zadanie 5]
+
+19. Opis kroku: Sprawdź czy pod listą wyświetla się przycisk „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Przycisk „Pokaż wszystkie” jest widoczny pod listą
+
+20. Opis kroku: Kliknij przycisk „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Zostaje wyświetlony nowy widok „Zadania”
+
+21. Opis kroku: Sprawdź czy na widoku „Zadania” widoczne są zadania z przekroczonym terminem (6)
+
+Oczekiwany rezultat: Na liście wyświetlają się [zadanie 1], [zadanie 2], [zadanie 3], [zadanie 4], [zadanie 5], [zadanie 6], 
+

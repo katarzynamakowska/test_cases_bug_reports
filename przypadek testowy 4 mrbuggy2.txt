@@ -1,0 +1,98 @@
+Nazwa: 
+Wyświetlanie wiadomości
+
+Cel testu:
+Sprawdzenie wyświetlania wiadomości na ekranie „Kokpit”
+
+Warunki wstępne:
+znane są dane logowania następujących użytkowników:
+[user 1] - zalogowany; 0 wiadomości
+[user 2] - 5 wiadomości
+[user 3] - 6 wiadomości
+
+Wymagania / User Story:
+JAKO [dowolny użytkownik]  CHCĘ po zalogowaniu mieć opcję wyloguj widoczną na każdym ekranie BO WTEDY mogę się wylogować w dowolnym momencie 
+W prawym górnym rogu widnieje przycisk "Wyloguj", który znajduje się na każdym ekranie. 
+JAKO [dowolny użytkownik]  CHCĘ po zalogowaniu na ekranie "Kokpit" mieć dostęp do najnowszych wiadomości BO WTEDY będę mógł szybko na nie odpowiedzieć lub ocenić jakie wiadomości są bez odpowiedzi 
+Na ekranie "Kokpit" w boksie po prawej stronie widzę pięć ostatnio otrzymanych wiadomości. Pod nimi znajduje się przycisk "Pokaż wszystkie", który po kliknięciu przeniesie mnie do widoku wszystkich wiadomości 
+Typ testu:
+Pozytywny
+
+Opis kroku i Oczekiwany rezultat
+
+1. Opis kroku: Sprawdź czy widzisz „Kokpit” 
+
+Oczekiwany rezultat:  „Kokpit” jest widoczny
+
+2. Opis kroku: Sprawdź czy na ekranie „Kokpit” w boksie po prawej stronie widoczna jest lista wiadomości
+
+Oczekiwany rezultat:  Lista jest widoczna; lista nie zawiera wiadomości
+
+3. Opis kroku: Sprawdź czy pod listą wyświetla się przycisk „Pokaż wszystkie”
+
+Oczekiwany rezultat: Przycisk „Pokaż wszystkie” nie jest widoczny pod listą
+
+4. Opis kroku: Sprawdź czy w prawym górnym rogu istnieje przycisk „wyloguj”
+
+Oczekiwany rezultat:  Przycisk „wyloguj” jest widoczny w prawym górnym rogu
+
+5. Opis kroku: Kliknij przycisk „Wyloguj”
+
+Oczekiwany rezultat: Nastąpiło poprawne wylogowanie
+
+6. Opis kroku: Zaloguj się jako [user 2] 
+
+Oczekiwany rezultat:   Nastąpiło poprawne zalogowanie
+
+7. Opis kroku: Sprawdź czy widzisz „Kokpit” 
+
+Oczekiwany rezultat:  „Kokpit” jest widoczny
+
+8. Opis kroku: Sprawdź czy na ekranie „Kokpit” w boksie po prawej stronie widoczna jest lista 
+wiadomości i zawiera 5 wiadomości
+
+Oczekiwany rezultat:  Lista jest widoczna i lista zawiera 5 wiadomości
+
+9. Opis kroku: Sprawdź czy pod listą wyświetla się przycisk „Pokaż wszystkie”
+
+Oczekiwany rezultat: Przycisk „Pokaż wszystkie” jest widoczny pod listą
+
+10. Opis kroku: Kliknij „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Nastąpiło poprawne przeniesienie do widoku wszystkich wiadomości 
+
+11. Opis kroku: Sprawdź czy na widoku wszystkich wiadomości wyświetla się 5 wiadomości do [user 2]
+
+Oczekiwany rezultat: Na widoku wyświetla się 5 wiadomości
+
+12. Opis kroku: Sprawdź czy w prawym górnym rogu istnieje przycisk „wyloguj”
+
+Oczekiwany rezultat: Przycisk „wyloguj” jest widoczny w prawym górnym rogu
+
+13. Opis kroku: Kliknij przycisk „Wyloguj”
+
+Oczekiwany rezultat: Nastąpiło poprawne wylogowanie
+
+14. Opis kroku: Zaloguj się jako [user 3]
+
+Oczekiwany rezultat: Nastąpiło poprawne zalogowanie
+
+15. Opis kroku: Sprawdź czy widzisz „Kokpit”
+
+Oczekiwany rezultat: „Kokpit” jest widoczny
+
+16. Opis kroku: Sprawdź czy na ekranie „Kokpit” w boksie po prawej stronie widoczna jest lista wiadomości i zawiera 5 wiadomości
+
+Oczekiwany rezultat: Lista jest widoczna i lista zawiera 5 wiadomości
+
+17. Opis kroku: Sprawdź czy pod listą wyświetla się przycisk „Pokaż wszystkie”
+
+Oczekiwany rezultat: Przycisk „Pokaż wszystkie” jest widoczny pod listą
+
+18. Opis kroku: Kliknij „Pokaż wszystkie”
+
+Oczekiwany rezultat: Nastąpiło poprawne przeniesienie do widoku wszystkich wiadomości 
+
+19. Opis kroku: Sprawdź czy na widoku wszystkich wiadomości wyświetla się 6 wiadomości do [user 3]
+
+Oczekiwany rezultat: W widoku wszystkich wiadomości wyświetla się 6 wiadomości do [user 3]
