@@ -1,0 +1,90 @@
+Nazwa: 
+Wyświetlanie zadań w projekcie
+
+Cel testu:
+Sprawdzenie czy osoba przypisana do projektu może wyświetlać przypisane jej zadania
+
+Warunki wstępne:
+[user 1] zalogowany - przypisany do projektów:
+[projekt 1] 0 zadań dla [user 1]
+[projekt 2] 5 zadań dla [user 1]
+[projekt 3] 6 zadań dla [user1]
+
+Wymagania / User Story:
+JAKO [dowolny użytkownik]  CHCĘ po zalogowaniu na ekranie "Kokpit" mieć dostęp do zadań jakie powinienem wykonać  BO WTEDY będę widział co muszę zrobić 
+Na ekranie "Kokpit" w centralnym miejscu widzę 5 najnowszych zadań jakie zostały do mnie przypisane w obecnie wybranym projekcie. Pod najnowszymi zadaniami znajduje się przycisk "Pokaż wszystkie" (jeśli są), który po kliknięciu przeniesie mnie do widoku "Zadania" 
+
+Typ testu:
+Pozytywny
+
+Opis kroku i Oczekiwany rezultat
+
+1. Opis kroku: przełącz się na [projekt 1];  
+
+Oczekiwany rezultat:  Użytkownik został przeniesiony na [projekt1]
+
+2. Opis kroku: Sprawdź czy widzisz „Kokpit”
+
+Oczekiwany rezultat:  „Kokpit” jest widoczny
+
+3. Opis kroku: sprawdź czy w centralnym miejscu widzisz listę zadań
+
+Oczekiwany rezultat: Lista jest widoczna, ale nie zawiera żadnych zadań
+
+4. Opis kroku: Sprawdź czy pod listą zadań znajduje się przycisk „Pokaż wszystkie”
+
+Oczekiwany rezultat:  Przycisk jest niewidoczny
+
+5. Opis kroku: Przełącz się na [projekt 2]
+
+Oczekiwany rezultat:  Lista zadań wyświetla się w centralnym miejscu
+
+6. Opis kroku: Sprawdź czy widzisz „Kokpit” 
+
+Oczekiwany rezultat:   „Kokpit” jest widoczny
+
+7. Opis kroku: sprawdź czy w centralnym miejscu widzisz listę zadań; 
+
+Oczekiwany rezultat:  Lista zadań jest widoczna
+
+8. Opis kroku: sprawdź czy lista zadań zawiera 5 najnowszych zadań
+
+Oczekiwany rezultat:  Lista zadań zawiera 5 najnowszych zadań w projekcie
+
+9. Opis kroku: Sprawdź czy pod listą zadań znajduje się przycisk „Pokaż wszystkie”
+
+Oczekiwany rezultat: Pod listą znajduje się przycisk „Pokaż wszystkie”
+
+10. Opis kroku: Kliknij przycisk „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Zostaje wyświetlony nowy widok „Zadania”
+
+11. Opis kroku: Sprawdź czy na widoku „Zadania” znajduje się 5 zadań z [projekt 2]
+
+Oczekiwany rezultat: Na widoku znajduje się 5 zadań z [projekt 2] przypisanych do [user1]
+
+12. Opis kroku: Przełącz się na [projekt 3];
+
+Oczekiwany rezultat: W centralnym miejscu widoczna jest lista zadań, a pod listą przycisk 
+„Pokaż wszystkie”
+
+13. Opis kroku: Sprawdź czy widzisz „Kokpit”;
+
+Oczekiwany rezultat: „Kokpit” jest widoczny
+
+14. Opis kroku: Sprawdź czy w centralnym miejscu widzisz listę zadań, a pod nią przycisk „Pokaż wszystkie”;
+
+Oczekiwany rezultat: Lista zadań jest widoczna; przycisk „Pokaż wszystkie” jest widoczny pod listą
+
+15. Opis kroku: sprawdź czy listą zadań zawiera 5 najnowszych zadań
+
+Oczekiwany rezultat: Pobrany plik ma format .zip
+
+16. Opis kroku: Kliknij przycisk „Pokaż wszystkie” 
+
+Oczekiwany rezultat: Zostaje wyświetlony nowy widok „Zadania”
+
+17. Opis kroku: Sprawdź czy na widoku „Zadania” wyświetla się 6 (wszystkie) zadań przypisanych do [user1] 
+
+Oczekiwany rezultat: Na widoku znajduje się 6 (wszystkie) zadań z [projekt 3] przypisane do [user1]
+

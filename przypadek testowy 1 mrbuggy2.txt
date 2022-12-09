@@ -1,0 +1,65 @@
+Nazwa: 
+Eksport projektu
+
+Cel testu:
+Sprawdzanie możliwości eksportowania projektu
+
+Warunki wstępne:
+[user 1] - jest zalogowany, jest Administratorem; 
+[projekt 1] - ma wypełnione wszystkie dane: „Środowisko”, „Wydania”, „Fazy”, „Role”, „Zadania”, „Użytkownicy”
+
+Wymagania / User Story:
+JAKO Administrator  CHCĘ móc eksportować projekt BO WTEDY będę mógł wykonać kopię zapasową projektu 
+Dla eksportu można ustalić dane do eksportu: Środowiska, Wydania, Fazy, Role, Zadania, Użytkownicy. Zaznaczane checkboxy są od siebie zależne, np. jeśli odznaczysz wydania, to fazy są automatycznie odznaczane, a jeśli odznaczysz użytkowników, to zadania są odznaczane itp. Pobrany plik jest  w formacie .zip
+Typ testu:
+Pozytywny
+
+Opis kroku i Oczekiwany rezultat
+
+1. Opis kroku: Po zalogowaniu jako Administrator, wejdź w zakładkę „Administracja” 
+
+Oczekiwany rezultat:  Wyświetla się strona Administracji
+
+2. Opis kroku: Wyszukaj [projekt 1]
+
+Oczekiwany rezultat:  [projekt 1] został poprawnie wyszukany
+
+3. Opis kroku: Otwórz [projekt 1]
+
+Oczekiwany rezultat:  Strona [projekt 1] została prawnie wyświetlona
+
+4. Opis kroku: Sprawdź czy widzisz opcję eksportowania projektu
+
+Oczekiwany rezultat:  Opcja eksportowania projektu jest widoczna
+
+5. Opis kroku: Kliknij opcję eksportowania projektu
+
+Oczekiwany rezultat:  Zostało wyświetlona strona eksportu
+
+6. Opis kroku: Sprawdź czy na stronie znajdują się checkboxy  „Środowisko”, „Wydania”, „Fazy”, „Role”, „Zadania”, „Użytkownicy” 
+
+Oczekiwany rezultat:   Checkboxy „Środowisko”, „Wydania”, „Fazy”, „Role”, „Zadania”, „Użytkownicy” znajdują się na stronie
+
+7. Opis kroku: Zaznacz wszystkie checkboxy
+
+Oczekiwany rezultat:  Wszystkie checkboxy zostały zaznaczone
+
+8. Opis kroku: Odznacz checkbox „Wydania” i sprawdź czy automatycznie odznaczył się checkbox „Fazy”
+
+Oczekiwany rezultat:  Checkbox „Wydania” został odznaczony, checkbox „Fazy” został odznaczony automatycznie
+
+9. Opis kroku: Odznacz checkbox „Użytkownicy” i sprawdź czy automatycznie odznaczył się checkbox „Zadania”
+
+Oczekiwany rezultat: Checkbox „Użytkownicy” został odznaczony, checkbox „Zadania” został odznaczony automatycznie
+
+10. Opis kroku: Sprawdź czy opcja eksportuj jest dostępna na stronie
+
+Oczekiwany rezultat: Opcja eksportuj jest dostępna na stronie
+
+11. Opis kroku: Kliknij opcję eksportuj
+
+Oczekiwany rezultat: Plik został eksportowany i pobrany przez urządzenie [user 1]
+
+12. Opis kroku: Na urządzeniu sprawdź czy pobrany plik ma format .zip
+
+Oczekiwany rezultat: Pobrany plik ma format .zip
