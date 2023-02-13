@@ -1,0 +1,38 @@
+Test name: adding an expense to the list
+
+Test case description:
+
+Testing if user can correctly add an expense to the list
+
+Pre-requisite:
+website address - https://naucz-sie-testowac.czyitjestdlamnie.pl/
+
+Test type: positive
+
+Inputs    Expected output
+
+Input: Navigate to website, check if there is an empty list visible on the website
+
+Expected output: website loaded successfully, the an empty list is visible
+
+2. Input: Check if „+” button is visible
+
+Expected output: „+” button is visible
+
+3. Input: press „+” button
+
+Expected output: After pressing „+” button a window appeared 
+
+4. Input: Check if window contains fields „Nazwa”, „Kwota”, „Data” and „ ✓” i „x”
+ buttons
+
+Expected output: Window contains fields „Nazwa”, „Kwota”, „Data” and „ ✓” i „x”
+ buttons
+
+5. Input: Examine if „Data” field user can both set a date from the calendar or write it by hand
+
+Expected output: In the field „Data” User can both set a date from the calendar or write it by hand
+
+6. Input: Fill fields „Nazwa”, „Kwota”, „Data” correctly and press the „ ✓” button
+
+Expected output: Fields „Nazwa”, „Kwota”, „Data” accept correct data and after pressing the „ ✓” the expense is successfully added to the list
