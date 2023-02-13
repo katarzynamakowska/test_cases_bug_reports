@@ -18,7 +18,7 @@ Input: Navigate to website, check if there are an empty list and „+” button 
 
 Expected output: website loads successfully, the empty and „+” button are visible
 
-2. Input: Press „+” button and in a new window fill the „Nazwa”, „Kwota”, „Data” with correct data. Press the„ ✓” button
+2. Input: Press „+” button and in a new window. Fill the „Nazwa”, „Kwota”, „Data” with correct data. Press the„ ✓” button
 
 Expected output: the expense is successfully added to the list
 
