@@ -1,0 +1,38 @@
+
+
+Test name: summing up the expenses on the list
+
+Test case description:
+
+Testing if the app correctly sums up the expenses added to the list
+
+Pre-requisite:
+
+website address - https://naucz-sie-testowac.czyitjestdlamnie.pl/
+
+Test type: positive
+
+Inputs    Expected output
+
+Input: Navigate to website, check if there are an empty list and „+” button visible on the website
+
+Expected output: website loads successfully, the empty and „+” button are visible
+
+2. Input: Press „+” button and in a new window fill the „Nazwa”, „Kwota”, „Data” with correct data. Press the„ ✓” button
+
+Expected output: the expense is successfully added to the list
+
+3.Input: Add one more expense to the list 
+
+Expected output: another expense is successfully added to the list, both items are visible on the list
+
+4. Input: Examine if a field „Suma wydatków” is visible on the bottom of the list
+
+Expected output: Field „Suma wydatków” is visible on the bottom of the list
+
+5. Check if value in the field „Suma wydatków” is the correct sum of the prices of the two added items
+
+Expected output: The value in the field „Suma wydatków” is the correct sum of the prices of the two added items
+
+6. Input: Press F12 to refresh the website and examine if two positions are still on the list and the value in „Suma wydatków” haven’t changed
+
