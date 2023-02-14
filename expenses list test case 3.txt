@@ -9,19 +9,19 @@ Testing if the app correctly copies, edits and deletes the expenses on the list
 Pre-requisite:
 
 website address - https://naucz-sie-testowac.czyitjestdlamnie.pl/
-There are two 
+There are two items on the list
 
 Test type: positive
 
 Inputs    Expected output
 
-Input: Being on the website, place your mouse on the first expense on the list. Examine if there are three icons showing. The icons should be: copy, edit and delete.
+1. Input: Being on the website, place your mouse on the first expense on the list. Examine if there are three icons showing. The icons should be: copy, edit and delete.
 
 Expected output: Three icons correctly showing next to the expense. Icons are copy, edit, delete.
 
 2. Input: Click the copy icon
 
-Expected result: copied item is now showing on the list. There are three items on the list now.
+Expected result: Copied item is now showing on the list. There are three items on the list now.
 
 3. Input: Click the edit icon next to the expense.
 
@@ -39,7 +39,7 @@ Expected result: The edited expense is correctly showing on the list.
 
 Expected output: The value in „Suma wydatków” has changed correctly
 
-7. Input: Place your mouse on the first expense on the list and click the delete icon
+7. Input: Place your mouse on the first expense on the list and click the delete icon.
 
 Expected result: The first expense on the list has been deleted successfully. There are two expenses on the list now.
 
