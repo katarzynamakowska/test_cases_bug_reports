@@ -1,5 +1,5 @@
 
-Test name: field validation
+Test name: fields validation
 
 Test case description: 
 
@@ -13,62 +13,62 @@ Test type: negative
 
 Inputs    Expected output
 
-Input: Navigate to website;
+1. Input: Navigate to website;
 
 Expected output: The website loads correctly. There are and empty list and „+” button visible. 
 
-2. Press the „+” button and leave all the fields empty in the editing window. Press „ ✓” button. 
+2. Input: Press the „+” button and leave all the fields empty in the editing window. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-3. Insert correct data in the field „Nazwa”. Leave „Kwota” and „Data” fields empty. Press „ ✓” button. 
+3. Input: Insert correct data in the field „Nazwa”. Leave „Kwota” and „Data” fields empty. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-4. Insert correct data in the field „Nazwa” and „Kwota”. Leave „Data” field empty. Press „ ✓” button. 
+4. Input: Insert correct data in the field „Nazwa” and „Kwota”. Leave „Data” field empty. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-5. Insert correct data in the field „Kwota” and „Data” . Leave „Nazwa” field empty. Press „ ✓” button. 
+5. Input: Insert correct data in the field „Kwota” and „Data” . Leave „Nazwa” field empty. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-6. Insert correct data in the field „Nazwa” and „Data” . Put letters in „Kwota”. Press „ ✓” button. 
+6. Input: Insert correct data in the field „Nazwa” and „Data” . Put letters in „Kwota”. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-7. Insert correct data in the field „Nazwa” and „Data” . Put special characters in „Kwota”. Press „ ✓” button. 
+7. Input: Insert correct data in the field „Nazwa” and „Data” . Put special characters in „Kwota”. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-8. Insert correct data in the field „Nazwa” and „Data” . Put a negative number in „Kwota”. Press „ ✓” button. 
+8. Input: Insert correct data in the field „Nazwa” and „Data” . Put a negative number in „Kwota”. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-9. Insert correct data in the field „Nazwa” and „Kwota” . Put a string in „Data”. Press „ ✓” button. 
+9. Input: Insert correct data in the field „Nazwa” and „Kwota” . Put a string in „Data”. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-10. Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format DD-MM-YYYY. Press „ ✓” button. 
+10. Input: Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format DD-MM-YYYY. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-11. Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYY-DD-MM. Press „ ✓” button. 
+11. Input: Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYY-DD-MM. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-12. Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYYMMDD. Press „ ✓” button. 
+12. Input: Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYYMMDD. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-13. Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYY-MM-DD. Insert „13” as a month. Press „ ✓” button. 
+13. Input: Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYY-MM-DD. Insert „13” as a month. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-14. Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYY-MM-DD. Insert „32” as a day. Press „ ✓” button. 
+14. Input: Insert correct data in the field „Nazwa” and „Kwota” . In the „Data” field put a date in the format YYYY-MM-DD. Insert „32” as a day. Press „ ✓” button. 
 
 Expected output: Adding the expense to the list is not possible. 
 
-15. Press „ x” button. 
+15. Input: Press „ x” button. 
 
 Expected output: The editing panel was successfully closed. The changed have been discarded
