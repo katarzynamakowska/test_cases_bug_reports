@@ -34,6 +34,6 @@ Expected output: Field „Suma wydatków” is visible on the bottom of the list
 
 Expected output: The value in the field „Suma wydatków” is the correct sum of the prices of the two added items
 
-6. Input: Press F12 to refresh the website and examine if two positions are still on the list and the value in „Suma wydatków” haven’t changed
+6. Input: Press F12 to refresh the website and examine if two positions are still on the list and the value in „Suma wydatków” hasn’t changed
 
-Expected output: The website reloads sucessfuly and the two positions are still on the list and the value in „Suma wydatków” haven’t changed
+Expected output: The website reloads sucessfuly and the two positions are still on the list and the value in „Suma wydatków” hasn’t changed
