@@ -1,0 +1,418 @@
+Bug no: 1
+
+
+Bug title:
+
+The „x” button is missing in the adding expense window
+
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+Medium
+
+
+Source:
+
+Structure testing
+
+
+Bug Type:
+
+Visual / Functional
+
+
+Steps to reproduce: 
+
+1. Navigate to website, check if there are an empty list and the „+” button visible on the website
+
+2. Press „+” button
+
+3. Check if new window contains fields „Nazwa”, „Kwota”, „Data” and „ ✓” i „x” buttons
+
+
+Expected result:
+
+New window contains fields „Nazwa”, „Kwota”, „Data” and „ ✓” i „x” buttons
+
+
+Actual result:
+
+New window does not contain „x” button
+
+
+
+
+
+
+
+
+Bug no: 2
+
+
+Bug title:
+
+The calendar icon is missing in the adding expense window, the date cannot be set from the calendar
+
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+Medium
+
+
+Source:
+
+Exploratory testing
+
+
+Bug Type:
+
+Visual / Functional
+
+
+Steps to reproduce: 
+
+Navigate to website
+
+2. Press „+” button
+
+3. In a shown window try to set a date by clicking the calendar icon 
+
+
+Expected result:
+
+The date can be set by clicking the calendar icon.
+
+
+Actual result:
+
+The date cannot be set by clicking the calendar icon. The calendar icon is not visible
+
+
+
+
+
+
+
+
+Bug no: 3
+
+
+Bug title:
+
+The expense is missing after refreshing the page
+
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+High
+
+
+Source:
+
+Structure testing
+
+
+Bug Type:
+
+Functional
+
+
+Steps to reproduce: 
+
+1. Navigate to website
+
+2. Press „+” button
+
+3. Fill fields „Nazwa”, „Kwota”, „Data” correctly and press the „ ✓” button
+
+4. Press F12 to refresh the website and examine if the just added item is still on the list
+
+
+Expected result:
+
+After reloading the website the item is still on the list
+
+
+Actual result:
+
+After reloading the website the list is empty
+
+
+
+
+
+
+
+Bug no: 4
+
+
+Bug title:
+
+Fields in the window to create every next (except first) item is prefilled
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+Low
+
+
+Source:
+
+Exploratory testing
+
+
+Bug Type:
+
+Functional
+
+
+Steps to reproduce: 
+
+1. Navigate to website
+
+2. Press „+” button
+
+3. Fill fields „Nazwa”, „Kwota”, „Data” correctly and press the „ ✓” button
+
+4. Press „+” button again
+
+
+Expected result:
+
+A window with empty fields appears
+
+
+Actual result:
+
+Fields in the new window are filled with the data from the previous item
+
+
+
+
+
+Bug no: 5
+
+
+Bug title:
+
+The „Suma wydatków” field is missing from the bottom of the list
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+High
+
+
+Source:
+
+Exploratory testing
+
+
+Bug Type:
+
+Functional
+
+
+Steps to reproduce: 
+
+1. Navigate to website
+
+
+Expected result:
+
+An empty list, a „+” button and „Suma wydatków” field on the bottom of the page should be visible
+
+
+Actual result:
+
+„Suma wydatków” field on the bottom of the page is not visible
+
+
+
+
+
+
+
+
+
+
+
+
+Bug no: 6
+
+
+Bug title:
+
+After adding more than 5 items and refreshing the website, items are missing
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+High
+
+
+Source:
+
+Exploratory testing
+
+
+Bug Type:
+
+Functional
+
+
+Steps to reproduce: 
+
+Navigate to website
+
+Add 6 items to the list 
+
+3. Press F12 to refresh
+
+
+Expected result:
+
+After reloading, there are still all 6 items on the list.
+
+
+Actual result:
+
+After reloading, there are only 5 items on the list, the rest is missing.
+
+
+
+
+
+
+
+
+
+Bug no: 7
+
+
+Bug title:
+
+Copy and edit icon missing
+
+Environment:
+
+MacBook Pro, 16-inch, 2019 
+macOS Ventura 13.2
+Google Chrome 109.0.5414.119 (x86_64)
+
+
+Frequency:
+
+Everytime
+
+
+Priority:
+
+High
+
+
+Source:
+
+Structure testing
+
+
+Bug Type:
+
+Functional
+
+
+Steps to reproduce: 
+
+Navigate to website
+
+Add item to the list by pressing „+” button
+
+3.  Place the mouse on the first expense on the list
+
+4. Examine if three icons correctly showing next to the expense. Icons are copy, edit, delete.
+
+
+Expected result:
+
+Three icons correctly showing next to the expense. Icons are copy, edit, delete.
+
+
+Actual result:
+
+The delete icon is visible. Copy and edit icons are missing
+
+
+
+
+
+
+
